@@ -27,7 +27,8 @@ npm install
 
 ## Usage
 ## create config file for each env with the required details
-## Run accessibility tests by passing an environment config file like this: npm run test:**env**
+## Run accessibility tests by passing an environment config file like this:
+npm run test:**env**
 
 bash
 Copy
