@@ -26,7 +26,7 @@ This tool automates accessibility scans for web pages using [Puppeteer](https://
 npm install
 
 ## Usage
-## create config file for each env with the required details
+## create config file for each env with the required details like config.env.json
 ## Run accessibility tests by passing an environment config file like this:
 npm run test:**env**
 
