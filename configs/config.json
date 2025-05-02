@@ -1,0 +1,15 @@
+{
+  "credentials": {
+    "loginUrl": "Login Page URL",
+    "usernameSelector": "input[name='LoginName'",
+    "passwordSelector": "input[type='password']",
+    "loginButtonSelector": "input[name='btnLogin']",
+    "username": "username",
+    "password": "password"
+  },
+  "threshold": 90,
+  "screens": [
+    { "name": "Work Order Grid", "url": "Page URL", "selector": "#pageSelector" }
+    
+  ]
+}

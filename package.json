@@ -1,0 +1,22 @@
+{
+  "name": "accessibility-testing-utility",
+  "version": "1.0.0",
+  "description": "Automated accessibility testing using Puppeteer and Axe Core with HTML reporting.",
+  "main": "testRunner.js",
+  "scripts": {
+    "test": "node testRunner.js",
+    "test:demo": "cross-env env=demo node testRunner.js",
+    "test:int2": "cross-env env=int2 node testRunner.js",
+    "test:int4": "cross-env env=int4 node testRunner.js",
+    "test:master": "cross-env env=master node testRunner.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.8.2",
+    "puppeteer": "^22.8.2"
+  },
+  "author": "Santosh Pandey",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
