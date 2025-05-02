@@ -30,6 +30,5 @@ npm install
 ## Run accessibility tests by passing an environment config file like this:
 npm run test:**env**
 
-bash
-Copy
-Edit
+
+
