@@ -4,7 +4,7 @@ This tool automates accessibility scans for web pages using [Puppeteer](https://
 ## Project Structure
 
 ├── configs
-   ├──  config.demo.json
+    ├──  config.demo.json
 ├── login.js
 ├── reporter.js
 ├── testRunner.js
