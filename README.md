@@ -1,5 +1,5 @@
 # ADA-Testing-Tool
-This tool automates accessibility scans for web pages using [Puppeteer](https://github.com/puppeteer/puppeteer) and [axe-core](https://github.com/dequelabs/axe-core), supporting login sessions, dynamic page handling, and WCAG 2.2 (A, AA) standards.
+This tool automates accessibility scans for web pages using [Puppeteer](https://github.com/puppeteer/puppeteer) and [axe-core](https://github.com/dequelabs/axe-core), supporting login sessions, dynamic page handling, and WCAG 2.2 (A, AA), section508 standards.
 
 ## Project Structure
 
