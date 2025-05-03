@@ -31,13 +31,16 @@ function generateHTMLReport(results) {
       ${result.violations.map(v => `
         <li>
           <strong>${v.id}</strong> (${v.impact}) — ${v.description}<br/>
+          <strong>⚠️ Priority:</strong> ${v.impact} <br>
           <em><a href="${v.helpUrl}" target="_blank">Learn more</a></em>
           <ul>
             ${v.nodes.map(n => `
               <li>
                 <code>${n.html}</code><br/>
                 Target: <code>${n.target.join(', ')}</code><br/>
-                <strong>Issue:</strong> ${n.failureSummary}
+                <em><strong>Issue:</strong> ${n.failureSummary}</em>
+                ${n.suggestedFixes ? `<strong>Suggested Fix:</strong> ${n.suggestedFixes}` : ''}
+                ${n.keyboardCheck ? `<br/><strong>Keyboard Access:</strong> ${n.keyboardCheck}` : ''}
               </li>
             `).join('')}
           </ul>
